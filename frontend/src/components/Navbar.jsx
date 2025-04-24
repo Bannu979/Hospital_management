@@ -18,7 +18,7 @@ const Navbar = () => {
 
     return (
         <div className='flex items-center justify-between text-sm py-4 mb-5 border-b border-b-gray-400'>
-            {/* <img onClick={() => navigate('/')} className='w-44 cursor-pointer' src={assets.logo} alt='' /> */}
+            {/* <img onClick={() => navigate('/')}  className='w-44 cursor-pointer' src={assets.logo} alt='' /> */}
             <a href="/" className="text-3xl font-bold text-green-500 flex items-center space-x-2">
             <FaHospital size={24} />
                 <span>MediCare</span>
