@@ -106,7 +106,11 @@ const Navbar = () => {
                 {/* Mobile Menu */}
                 <div className={`fixed top-0 right-0 bottom-0 w-full bg-white z-20 transition-transform duration-300 ${showMenu ? 'translate-x-0' : 'translate-x-full'}`}>
                     <div className='flex items-center justify-between px-5 py-6'>
-                        <img className='w-36' src={assets.logo} alt='' />
+                        {/* <img className='w-36' src={assets.logo} alt='' /> */}
+                        <a href="/" className="text-3xl font-bold text-green-500 flex items-center space-x-2">
+                            <FaHospital size={24} />
+                            <span>MediCare</span>
+                        </a>
                         <img className='w-7 cursor-pointer' onClick={() => setShowMenu(false)} src={assets.cross_icon} alt='' />
                     </div>
 
